@@ -1,0 +1,22 @@
+button {
+  padding: 5px 10px;
+  margin: 5px;
+  font-size: 16px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.selected {
+  background-color: blue;
+  color: white;
+}
+.matched {
+  display: none;
+}
+.not-matched {
+  background-color: red;
+  color: white;
+}

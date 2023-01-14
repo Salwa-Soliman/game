@@ -1,23 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import CountriesCapitalsGame from "./components/CountriesCapitalsGame/CountriesCapitalsGame";
 
 function App() {
+  const data = { key1: "val1", key2: "val2", key3: "val3", key4: "val4" };
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <CountriesCapitalsGame data={data} />
     </div>
   );
 }
